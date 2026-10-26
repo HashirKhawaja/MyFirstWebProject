@@ -1,0 +1,53 @@
+.header{
+   background-color: #00ffff; 
+   padding: 8px; 
+   text-align: right;
+   font-size:20px;
+}
+
+.subheader{
+   background-color: #00ffff; 
+   padding: 5px; 
+   text-align: right;
+   font-size: 13px;
+}
+
+.table{
+   padding:10px;
+   background-color:#65D8EC;
+   margin-top:20px;
+   width:220px;
+   margin-left:10px;
+   border:2px  solid green ;
+}
+
+.Spatulas, .Cookies{
+    color:#20b2aa;
+    font-size:20px;
+    text-align:left;
+}
+
+.Spatulas-img, .Cookies-img{
+  width:150px;
+  height:auto;
+  float:right;
+  margin-left:10px;
+}
+
+.entries{
+    flex:1;
+}
+
+.entry {
+    background-color: #E8F8F8;
+    border: 3px solid #B5E5E5;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+.container{
+
+	display:flex;
+	align-items:flex-start;
+        gap:30px;
+}
